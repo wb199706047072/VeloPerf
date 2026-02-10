@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+websockets
+adbutils
+tidevice
+loguru
+psutil
+aiofiles
+Pillow
