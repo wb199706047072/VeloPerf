@@ -1,6 +1,6 @@
-# PerfCat 🐱
+# VeloPerf 🚀
 
-PerfCat 是一个开源、免费的移动端性能测试工具，它支持 Android 和 iOS设备，提供实时的性能数据采集与可视化。
+VeloPerf 🚀 是一个开源、免费的移动端性能测试工具，它支持 Android 和 iOS设备，提供实时的性能数据采集与可视化。
 
 ## 特性
 
@@ -156,12 +156,4 @@ npm install
   - 可以通过浏览器直接访问 `http://localhost:8000/records` 查看并下载录制文件。
   - 文件包含时间戳、CPU、内存、FPS、Jank、Stutter、GPU、电池、网络等全量指标。
 
-## CI 流水线（GitHub Actions）
-
-- 配置文件：`.github/workflows/ci.yml`
-- 触发：`push` 与 `pull_request`
-- 作业：
-  - `backend`：安装 Python 3.11 → 安装依赖 → 运行单元测试（`backend/tests/test_android_parsers.py`）
-  - `frontend`：安装 Node 18 → 安装依赖 → 构建 → 上传 `dist` 产物为 artifact
-- 查看方式：在 GitHub 仓库的 Actions 页面查看每次提交的构建状态与构建产物
 
